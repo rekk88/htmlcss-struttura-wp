@@ -3,7 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+body{
+    margin: 15px 150px;
+}
 header{
     height: 80px;
     background-color: rgb(177, 30, 54);
@@ -52,7 +54,7 @@ aside{
     background-color: #abcfe7; /*da togliere*/
     width: 56%;
     height: 350px; 
-    margin: 0% 2%;
+    margin: 0% 2%; /* margini dx e sx 2% */
     /* margin:0 calc(60% - 150px); */
     
 }
