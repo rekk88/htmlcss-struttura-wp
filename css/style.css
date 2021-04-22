@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    margin: 15px 150px;
+    margin: 30px 250px;
 }
 header{
     height: 80px;
@@ -13,16 +13,18 @@ header{
 
 main{
     /* height: 600px; */
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .main-top{
-    height: 250px;
+    height: 400px;
     background-color:#e1d67a;
+    margin: 30px 0px;
 }
 
 .header-main-bottom{
     height: 70px;
+    
 }
 .main-bottom{
     /* height: 350px; maledettaaaaa altezza */
@@ -43,6 +45,7 @@ main{
     /* border: 3px solid black; */
     /* height: 85%; */
     background-color:#0086ff;
+    margin-bottom: 10px;
 }
 aside{
     width: 20%;
