@@ -3,3 +3,36 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+header{
+    height: 80px;
+    background-color: rgb(177, 30, 54);
+}
+
+main{
+    /* height: 600px; */
+    background-color: yellow;
+}
+
+.main-top{
+    height: 250px;
+    background-color:#e1d67a;
+}
+
+
+.main-bottom{
+    height: 350px;
+    background-color:#abcfe7;
+}
+
+
+
+
+
+
+
+
+footer{
+    height: 55px;
+    background-color: purple;
+}
