@@ -20,26 +20,47 @@ main{
 }
 
 .header-main-bottom{
-    height: 15%;
+    height: 70px;
 }
 .main-bottom{
-    height: 350px;
+    /* height: 350px; maledettaaaaa altezza */
     background-color:#abcfe7;
 }
 
 .clearfix::after{
-    content: "";
+    content: " ";
     display: table;
     clear: both;
 }
 
-.container{
-    border: 3px solid black;
-    height: 85%;
+.float{
+    float: left;
 }
 
+.container{
+    border: 3px solid black;
+    /* height: 85%; */
+    background-color:#0086ff;
+}
+aside{
+    width: 20%;
+    background-color: yellow;
+    height: 350px;
+}
+.main-content{
+    border: 2px solid red; /*da togliere*/
+    background-color: red; /*da togliere*/
+    width: 56%;
+    height: 350px; 
+    margin: 0% 2%;
+    /* margin:0 calc(60% - 150px); */
+    
+}
 
-
+aside, .main-content{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 
 footer{
