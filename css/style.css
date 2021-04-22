@@ -3,34 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body{
-    margin: 30px 250px;
-}
-header{
-    height: 80px;
-    background-color: rgb(177, 30, 54);
-}
-
-main{
-    /* height: 600px; */
-    /* background-color: yellow; */
-}
-
-.main-top{
-    height: 400px;
-    background-color:#e1d67a;
-    margin: 30px 0px;
-}
-
-.header-main-bottom{
-    height: 70px;
-    
-}
-.main-bottom{
-    /* height: 350px; maledettaaaaa altezza */
-    background-color:#abcfe7;
-}
-
+/* clear e float */
 .clearfix::after{
     content: " ";
     display: table;
@@ -41,25 +14,60 @@ main{
     float: left;
 }
 
+/* body */
+body{
+    margin: 30px 250px;
+}
+
+/* header */
+header{
+    height: 80px;
+    background-color: rgb(177, 30, 54);/*da togliere*/
+}
+
+
+/* main */
+.main-top{
+    height: 400px; /*da togliere*/
+    background-color:#e1d67a; /*da togliere*/
+    margin: 30px 0px;
+}
+
+.header-main-bottom{
+    height: 70px;
+    
+}
+.main-bottom{
+    /* height: 350px; */
+    background-color:#abcfe7;
+}
+
 .container{
     /* border: 3px solid black; */
     /* height: 85%; */
-    background-color:#0086ff;
+    background-color:#0086ff; /*da togliere*/
     margin-bottom: 10px;
 }
 aside{
     width: 20%;
-    background-color: #abcfe7;
-    height: 350px;
+    background-color: #abcfe7;/*da togliere*/
+    height: 350px;/*da togliere*/
 }
 .main-content{
     /* border: 2px solid red; */
     background-color: #abcfe7; /*da togliere*/
-    width: 56%;
-    height: 350px; 
-    margin: 0% 2%; /* margini dx e sx 2% */
-    /* margin:0 calc(60% - 150px); */
+    width: 56%; 
+    height: 350px;  /*da togliere*/
+    margin: 0% 2%;  /*  margini dx e sx 2% */
     
+    /*
+    versione margini utilizzando calc()
+    width: calc(60% - 30px);
+    margin: 0px 15px;
+    calc(wid% - margine in px *2 )
+    il calc si applica in questo caso alla width togliendo 
+    il margine impostato 
+    */
 }
 
 aside, .main-content{
@@ -67,7 +75,7 @@ aside, .main-content{
     margin-bottom: 15px;
 }
 
-
+/* footer */
 footer{
     height: 55px;
     background-color: purple;
