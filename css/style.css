@@ -44,12 +44,12 @@ main{
 }
 aside{
     width: 20%;
-    background-color: yellow;
+    background-color: #abcfe7;
     height: 350px;
 }
 .main-content{
-    border: 2px solid red; /*da togliere*/
-    background-color: red; /*da togliere*/
+    /* border: 2px solid red; */
+    background-color: #abcfe7; /*da togliere*/
     width: 56%;
     height: 350px; 
     margin: 0% 2%;
